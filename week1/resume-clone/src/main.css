@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ol li {
+  list-style: decimal;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+ul li li {
+  list-style-type: circle;
+}

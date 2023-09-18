@@ -1,20 +1,20 @@
 function Header() {
   return (
-    <div className="flex flex-col mb-4">
+    <div className="flex flex-col mb-2">
       <div className="w-screen h-[12px] bg-pink-100 mb-[20px]"></div>
       <div className="flex justify-center">
         <img
-          className="w-28 h-[137px]"
+          className="w-24 h-[120px]"
           src="https://github.com/Yujin-Baek/highcharts/assets/87238236/99fa56e7-45dc-432e-8784-ff804d6bccf3"
           alt="avatar"
         />
-        <div className="flex-col ml-12">
-          <h1 className="text-[37px] font-semibold">백유진</h1>
-          <h2 className="text-[28px] text-pink-200 font-medium">
+        <div className="flex-col ml-[24px]">
+          <h1 className="text-[35px] font-medium">백유진</h1>
+          <h2 className="text-[23px] text-pink-200 font-medium">
             Frontend Engineer
           </h2>
         </div>
-        <table className="text-sm text-left ml-44">
+        <table className="text-[11px] text-left ml-44">
           <tbody>
             <tr className="bg-white border-b border-gray-300">
               <th scope="row" className="py-1 font-medium">
@@ -50,7 +50,7 @@ function Header() {
                 </a>
               </td>
             </tr>
-            <tr className="bg-white border-b border-gray-300">
+            <tr className="bg-white">
               <th scope="row" className="py-1 font-medium">
                 Tistory
               </th>
