@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col mb-4">
       <div className="w-screen h-[12px] bg-pink-100 mb-[20px]"></div>
       <div className="flex justify-center">
         <img
