@@ -1,8 +1,8 @@
-import Header from "./components/Header";
-import Section from "./components/Section";
-import Table from "./components/Table";
+import Header from "./components/resume/Header";
+import Section from "./components/resume/Section";
+import Table from "./components/resume/Table";
 
-function App() {
+export default function Resume() {
   return (
     <div className="flex-col justify-center items-center">
       <Header />
@@ -93,5 +93,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
